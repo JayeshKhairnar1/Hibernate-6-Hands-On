@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+ <!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="show_sql">true</property>
+		<property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+		<property name="hibernate.connection.password">root</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hiber</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<mapping class="one_to_one.Account" />
+		<mapping class="one_to_one.Company" />
+		<mapping
+			class="one_to_one_bidirectional.Account_bidirectional" />
+		<mapping class="one_to_one_bidirectional.Company_bidirectonal" />
+
+		<mapping class="one_to_many.Phone" />
+		<mapping class="one_to_many.Student" />
+
+		<mapping class="one_to_many_delete_cascade.Phone2" />
+		<mapping class="one_to_many_delete_cascade.Student2" />
+
+		<mapping class="one_to_many_bidirectional.Answer" />
+		<mapping class="one_to_many_bidirectional.Question" />
+
+		<mapping class="many_to_many.Employee" />
+		<mapping class="many_to_many.Project" />
+
+	</session-factory>
+</hibernate-configuration>
+
+
+
+
+
+
+
+
+
+

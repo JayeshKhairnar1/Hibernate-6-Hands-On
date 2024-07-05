@@ -2,6 +2,12 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="HCQL"/>
+			<item value="Association"/>
+			<item value="Second_Level_Cache"/>
+			<item value="Caching2"/>
+			<item value="Caching1"/>
+			<item value="HQL"/>
 			<item value="HIbernate2"/>
 			<item value="Hibernate1"/>
 			<item value="WithoutHibernate"/>
@@ -9,6 +15,12 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HCQL"/>
+			<item value="Association"/>
+			<item value="Second_Level_Cache"/>
+			<item value="Caching2"/>
+			<item value="Caching1"/>
+			<item value="HQL"/>
 			<item value="HIbernate2"/>
 			<item value="Hibernate1"/>
 			<item value="WithoutHibernate"/>
@@ -20,5 +32,72 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Workspaces\Hibernate\Association (Relation Between Tables)\src\main"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.jk.Table_Relations"/>
+			<item value="com.jk.Caching"/>
+		</list>
+		<list key="groupId">
+			<item value="com.jk"/>
+		</list>
+		<list key="artifactId">
+			<item value="Table_Relations"/>
+			<item value="Caching"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
 	</section>
 </section>

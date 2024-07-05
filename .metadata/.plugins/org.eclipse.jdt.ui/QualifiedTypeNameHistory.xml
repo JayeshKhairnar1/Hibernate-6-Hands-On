@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
 </qualifiedTypeNameHistroy>

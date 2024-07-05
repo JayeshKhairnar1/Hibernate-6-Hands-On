@@ -14,5 +14,6 @@
 		<mapping class="mypack.Employee" />
 		<mapping class="mypack.Product"/>
 		<mapping class="mypack.Merge_Product"/>
+		<mapping class="mypack.Dirty_Product"/>
 	</session-factory>
 </hibernate-configuration>
