@@ -1,0 +1,27 @@
+<%@ page import="mypack.Dept" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html>
+<head>
+    <title>Department Search</title>
+    <style>
+        body {
+            
+            background-color: beige;
+          
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Search By Location</h2>
+    <form action="SearchServ" method="post">
+        <label for="location">Enter Location:</label>
+        <input type="text"  name="location" />
+        <input type="submit" value="press to Search" />
+    </form>
+    <h3>Search Results:</h3>
+        <c:forEach var="dept" items="${depts}">
+            <p>Department Number: ${dept.deptno} | Department Name: ${dept.dname} | Location: ${dept.loc}</p>
+        </c:forEach>
+</body>
+</html>

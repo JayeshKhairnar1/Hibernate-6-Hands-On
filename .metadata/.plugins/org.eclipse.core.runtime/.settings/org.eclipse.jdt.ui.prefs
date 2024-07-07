@@ -1,7 +1,7 @@
 content_assist_add_import=true
 content_assist_autoactivation=true
 content_assist_autoactivation_delay=0
-content_assist_autoactivation_triggers_java=.
+content_assist_autoactivation_triggers_java=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ._
 content_assist_autoactivation_triggers_javadoc=@\#
 content_assist_autoinsert=true
 content_assist_case_sensitivity=false
@@ -21,6 +21,7 @@ eclipse.preferences.version=1
 org.eclipse.jdt.internal.ui.navigator.layout=2
 org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=23
+sourceHoverBackgroundColor=255,255,225
 spelling_locale_initialized=true
 typefilter_migrated_2=true
 useAnnotationsPrefPage=true

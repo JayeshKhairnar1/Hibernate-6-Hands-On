@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Assignmnet_Friday"/>
+			<item value="Full_stack_Assignmnets"/>
+			<item value="Lazy_Eager_Loading"/>
+			<item value="Lazy-Eager-Loading"/>
 			<item value="HCQL"/>
 			<item value="Association"/>
 			<item value="Second_Level_Cache"/>
@@ -15,6 +19,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Assignmnet_Friday"/>
+			<item value="Full_stack_Assignmnets"/>
+			<item value="Lazy_Eager_Loading"/>
+			<item value="Lazy Eager Loading"/>
 			<item value="HCQL"/>
 			<item value="Association"/>
 			<item value="Second_Level_Cache"/>
