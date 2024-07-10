@@ -67,15 +67,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.jk.Table_Relations"/>
-			<item value="com.jk.Caching"/>
 		</list>
 		<list key="groupId">
-			<item value="com.jk"/>
 		</list>
 		<list key="artifactId">
-			<item value="Table_Relations"/>
-			<item value="Caching"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
